@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created with Workflow PetriNet Designer Version 3.9.2 (woped.org)
+Manual editing may break compatibility.-->
+<pnml>
+  <net type="http://www.informatik.hu-berlin.de/top/pntd/ptNetb" id="net1">
+    <name>
+      <text>pattern_basic_loop_4</text>
+    </name>
+    <place id="n1">
+      <name>
+        <text>p2</text>
+        <graphics>
+          <offset x="20" y="30"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="11" y="11"/>
+        <dimension x="12" y="12"/>
+      </graphics>
+      <toolspecific tool="ProM" version="6.4" localNodeID="2c6e3507-f140-45f9-9136-bf3a05299e9c"/>
+    </place>
+    <place id="n2">
+      <name>
+        <text>p3</text>
+        <graphics>
+          <offset x="20" y="30"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="11" y="11"/>
+        <dimension x="12" y="12"/>
+      </graphics>
+      <toolspecific tool="ProM" version="6.4" localNodeID="d5565544-6226-4686-a5b9-609540451a4f"/>
+    </place>
+    <place id="n3">
+      <name>
+        <text>p1</text>
+        <graphics>
+          <offset x="20" y="30"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="11" y="11"/>
+        <dimension x="12" y="12"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <toolspecific tool="ProM" version="6.4" localNodeID="27516c0f-3f45-40b7-b99d-3d4c2d3d4400"/>
+    </place>
+    <place id="n4">
+      <name>
+        <text>p5</text>
+        <graphics>
+          <offset x="20" y="30"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="11" y="11"/>
+        <dimension x="12" y="12"/>
+      </graphics>
+      <toolspecific tool="ProM" version="6.4" localNodeID="2af64b10-b5c7-4d10-a940-df7097c51175"/>
+    </place>
+    <transition id="n5">
+      <name>
+        <text>c</text>
+        <graphics>
+          <offset x="30" y="40"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="17" y="15"/>
+        <dimension x="25" y="20"/>
+      </graphics>
+      <toolspecific tool="ProM" version="6.4" activity="c" localNodeID="7e429839-8962-4217-b6e4-a4e617c38792"/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="n6">
+      <name>
+        <text>silent_transition_1</text>
+        <graphics>
+          <offset x="20" y="30"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="12" y="12"/>
+        <dimension x="15" y="15"/>
+      </graphics>
+      <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e602c5da-613d-4437-9fe3-95f22c21357e"/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="n7">
+      <name>
+        <text>a</text>
+        <graphics>
+          <offset x="30" y="40"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="17" y="15"/>
+        <dimension x="25" y="20"/>
+      </graphics>
+      <toolspecific tool="ProM" version="6.4" activity="a" localNodeID="1a6dc33d-2fba-4366-bbe7-03e3f27be4f6"/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="n8">
+      <name>
+        <text>b</text>
+        <graphics>
+          <offset x="30" y="40"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="17" y="15"/>
+        <dimension x="25" y="20"/>
+      </graphics>
+      <toolspecific tool="ProM" version="6.4" activity="b" localNodeID="d4749340-e710-48a5-8f5f-19793d6ae1fb"/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <arc id="arc13" source="n3" target="n7">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="arc14" source="n5" target="n1">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="arc9" source="n7" target="n1">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="arc15" source="n8" target="n2">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="arc16" source="n6" target="n4">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="arc10" source="n2" target="n5">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="arc11" source="n1" target="n8">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="arc12" source="n2" target="n6">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <toolspecific tool="WoPeD" version="3.9.2">
+      <bounds>
+        <position x="2" y="26"/>
+        <dimension x="966" y="650"/>
+      </bounds>
+      <scale>100</scale>
+      <treeWidthRight>646</treeWidthRight>
+      <overviewPanelVisible>true</overviewPanelVisible>
+      <treeHeightOverview>100</treeHeightOverview>
+      <treePanelVisible>true</treePanelVisible>
+      <verticalLayout>false</verticalLayout>
+      <resources/>
+      <simulations/>
+      <partnerLinks/>
+      <variables/>
+    </toolspecific>
+  </net>
+</pnml>

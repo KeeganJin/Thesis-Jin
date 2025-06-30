@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1750078770.3424938" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1750078770.3424938</text>
+    </name>
+    <page id="n0">
+      <place id="n5">
+        <name>
+          <text>ent_Activity_07l840y</text>
+        </name>
+        <graphics>
+          <position x="181.25" y="128.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n4">
+        <name>
+          <text>ent_Activity_0z327pw</text>
+        </name>
+        <graphics>
+          <position x="618.75" y="106.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n3">
+        <name>
+          <text>p5</text>
+        </name>
+        <graphics>
+          <position x="531.25" y="94.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n6">
+        <name>
+          <text>End</text>
+        </name>
+        <graphics>
+          <position x="706.25" y="92.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n7">
+        <name>
+          <text>exi_Gateway_1uy2ee7</text>
+        </name>
+        <graphics>
+          <position x="356.25" y="87.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n8">
+        <name>
+          <text>p2</text>
+        </name>
+        <graphics>
+          <position x="443.75" y="92.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n9">
+        <name>
+          <text>p1</text>
+        </name>
+        <graphics>
+          <position x="268.75" y="98.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n10">
+        <name>
+          <text>Start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+        <graphics>
+          <position x="6.25" y="95.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n11">
+        <name>
+          <text>Flow_0cvsodw</text>
+        </name>
+        <graphics>
+          <position x="268.75" y="133.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n1">
+        <name>
+          <text>exi_Gateway_0xml2fd</text>
+        </name>
+        <graphics>
+          <position x="93.75" y="94.5"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <place id="n2">
+        <name>
+          <text>p3</text>
+        </name>
+        <graphics>
+          <position x="181.25" y="101.0"/>
+          <dimension x="12.5" y="12.5"/>
+        </graphics>
+      </place>
+      <transition id="n12">
+        <name>
+          <text>n12</text>
+        </name>
+        <graphics>
+          <position x="137.5" y="78.5"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2cbfd151-efdd-4e7a-9926-466d1e9ebbf8"/>
+      </transition>
+      <transition id="n16">
+        <name>
+          <text>A</text>
+        </name>
+        <graphics>
+          <position x="137.5" y="111.0"/>
+          <dimension x="25.0" y="20.0"/>
+        </graphics>
+      </transition>
+      <transition id="n13">
+        <name>
+          <text>n13</text>
+        </name>
+        <graphics>
+          <position x="225.0" y="97.5"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ea456360-9d8c-425c-9c6a-cfb0dffd97e1"/>
+      </transition>
+      <transition id="n14">
+        <name>
+          <text>n14</text>
+        </name>
+        <graphics>
+          <position x="487.5" y="80.0"/>
+          <dimension x="15.0" y="15.0"/>
+        </graphics>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6e674cb0-99e9-4a0b-a7c1-cb2e418f40a9"/>
+      </transition>
+      <transition id="n15">
+        <name>
+          <text>S</text>
+        </name>
+        <graphics>
+          <position x="662.5" y="104.5"/>
+          <dimension x="25.0" y="20.0"/>
+        </graphics>
+      </transition>
+      <transition id="n17">
+        <name>
+          <text>R</text>
+        </name>
+        <graphics>
+          <position x="575.0" y="109.0"/>
+          <dimension x="25.0" y="20.0"/>
+        </graphics>
+      </transition>
+      <transition id="n18">
+        <name>
+          <text>N</text>
+        </name>
+        <graphics>
+          <position x="400.0" y="105.5"/>
+          <dimension x="25.0" y="20.0"/>
+        </graphics>
+      </transition>
+      <transition id="n19">
+        <name>
+          <text>U</text>
+        </name>
+        <graphics>
+          <position x="400.0" y="70.5"/>
+          <dimension x="25.0" y="20.0"/>
+        </graphics>
+      </transition>
+      <transition id="n20">
+        <name>
+          <text>P</text>
+        </name>
+        <graphics>
+          <position x="312.5" y="87.5"/>
+          <dimension x="25.0" y="20.0"/>
+        </graphics>
+      </transition>
+      <transition id="n21">
+        <name>
+          <text>Q</text>
+        </name>
+        <graphics>
+          <position x="487.5" y="112.5"/>
+          <dimension x="25.0" y="20.0"/>
+        </graphics>
+      </transition>
+      <transition id="n22">
+        <name>
+          <text>Z</text>
+        </name>
+        <graphics>
+          <position x="50.0" y="95.5"/>
+          <dimension x="25.0" y="20.0"/>
+        </graphics>
+      </transition>
+      <transition id="n23">
+        <name>
+          <text>E</text>
+        </name>
+        <graphics>
+          <position x="225.0" y="130.0"/>
+          <dimension x="25.0" y="20.0"/>
+        </graphics>
+      </transition>
+      <arc id="1738795108864" source="n23" target="n11"/>
+      <arc id="1738795116544" source="n5" target="n23"/>
+      <arc id="1738795109008" source="n3" target="n17"/>
+      <arc id="1738795112464" source="n4" target="n15"/>
+      <arc id="1738795113232" source="n16" target="n2"/>
+      <arc id="1738795112848" source="n16" target="n5"/>
+      <arc id="1738795111696" source="n20" target="n7"/>
+      <arc id="1738795108768" source="n17" target="n4"/>
+      <arc id="1738795116448" source="n19" target="n8"/>
+      <arc id="1738795112368" source="n15" target="n6"/>
+      <arc id="1738795113520" source="n13" target="n9"/>
+      <arc id="1738795111600" source="n10" target="n22"/>
+      <arc id="1738795113136" source="n11" target="n17"/>
+      <arc id="1738795112752" source="n7" target="n19"/>
+      <arc id="1738795111360" source="n14" target="n3"/>
+      <arc id="1738795112656" source="n21" target="n9"/>
+      <arc id="1738795108816" source="n1" target="n16"/>
+      <arc id="1738795113424" source="n8" target="n21"/>
+      <arc id="1738795113040" source="n7" target="n18"/>
+      <arc id="1738795111504" source="n9" target="n20"/>
+      <arc id="1738795112032" source="n22" target="n1"/>
+      <arc id="1738795116640" source="n18" target="n8"/>
+      <arc id="1738795113328" source="n8" target="n14"/>
+      <arc id="1738795112944" source="n1" target="n12"/>
+      <arc id="1738795112560" source="n2" target="n13"/>
+      <arc id="1738795107568" source="n12" target="n6"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="n6">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
